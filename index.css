@@ -1,0 +1,15 @@
+.container{
+    width: 600px; 
+    margin: 0 auto;
+}
+.container .row{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.container .row label{
+    float: left;
+    width: 100px;
+}
+.rowController{
+    overflow: hidden;
+}

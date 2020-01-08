@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+
+<head>
+    <title>index</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <form id="form" enctype="multipart/form-data">
+            <div class="row">
+                    <label>名称:</label>
+                    <div class="rowController">
+                        <input required="required" type="text"/>
+                    </div>
+                </div>
+            <div class="row">
+                <label>证书:</label>
+                <div class="rowController">
+                    <input type="file" accept="image/*" />
+                </div>
+            </div>
+            <div class="row">
+                <label></label>
+                <div class="rowController">
+                    <input type="submit" onclick="submit(event)" value="提交"/>
+                </div>
+            </div>
+        </form>
+    </div>
+    <script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
